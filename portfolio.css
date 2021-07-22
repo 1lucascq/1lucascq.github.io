@@ -1,9 +1,33 @@
-#Nome {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.nome {
+    font-family: EB Garamond, serif;
     text-align: center;
-    }
+}
+
 body {
     background-color: goldenrod;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     text-align: justify;
+    
+}
+
+.sobre {
+    background-color: #8CDFD6;
+}
+
+.skills {
+    background-color: #6DC0D5;
+}
+
+.links {
+    background-color: #8CDFD6;
+}
+
+.fotoLucas {
+
 }
