@@ -13,6 +13,7 @@ body {
     background-color: #000;
     font-family: sans-serif;
     text-align: justify;
+    /*POR QUÊ NÃO FUNCIONOU? text-decoration: none; */
 }
 
 .sectionAboutMe {
@@ -35,12 +36,15 @@ body {
 
 .sectionLinks {
     background-color: #0a5858;
-    padding: 10px;
+}
+.links {
+    text-decoration: none; 
 }
 
 .logoLinkedin {
     margin: 10px;
     padding: 10px;
+    
 }
 
 .logoGithub {
