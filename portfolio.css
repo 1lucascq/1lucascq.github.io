@@ -10,19 +10,19 @@
 }
 
 body {
-    background-color: goldenrod;
+    background-color: #000;
     font-family: sans-serif;
     text-align: justify;
-    
+    font-size: 10px;
 }
 
 .sectionAboutMe {
-    background-color: #8CDFD6;
+    background-color: #054747;
     padding: 10px;
 }
 
 .sectionSkills {
-    background-color: #6DC0D5;
+    background-color: #005050;
     padding: 10px;
     margin: auto;
 }
@@ -35,10 +35,17 @@ body {
 }
 
 .sectionLinks {
-    background-color: #8CDFD6;
+    background-color: #0a5858;
     padding: 10px;
 }
 
-.fotoLucas {
+.logoLinkedin {
+    margin: 10px;
+    padding: 10px;
+}
 
+.logoGithub {
+    margin: 10px;
+    padding: 10px;
+    
 }
