@@ -4,11 +4,6 @@
     box-sizing: border-box
 }
 
-.nome {
-    font-family: EB Garamond, serif;
-    text-align: center;
-}
-
 body {
     background-color: #000;
     font-family: sans-serif;
@@ -16,10 +11,46 @@ body {
     /*POR QUÊ NÃO FUNCIONOU? text-decoration: none; */
 }
 
+div {
+    border: 2px solid pink;
+}
+.nome {
+    font-family: EB Garamond, serif;
+    text-align: center;
+}
+
 .sectionAboutMe {
     background-color: #054747;
     padding: 10px;
 }
+
+.fotoContainer {
+    height: 250px;
+    /* width: 190px; */
+    padding: 2px;
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+.textContainer {
+    display: inline-block;
+    max-width: 375px;
+    margin-bottom: 00px;
+
+}
+
+.fotoLucas {
+    width: 181px;
+}
+
+.estudanteTrybe {
+    top: 10px;
+    color: white;
+}
+
+/* div:nth-child(2) p:nth-of-type(2) {
+    color: aqua;
+} */
 
 .sectionSkills {
     background-color: #005050;
@@ -36,9 +67,13 @@ body {
 
 .sectionLinks {
     background-color: #0a5858;
+
 }
 .links {
     text-decoration: none; 
+}
+
+.sectionSkills {
 }
 
 .logoLinkedin {
